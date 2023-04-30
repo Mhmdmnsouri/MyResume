@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/media-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mhmdmnsouri</title>
+</head>
+
+<body>
+    <header class="m-p-0 width-100">
+        <nav class="header-nav flex height-100">
+            <h1 class="m-p-0">Mhmdmnsouri</h1>
+            <a href="javascript:void(0);" class="header-bar" onclick="menu()"><i class="fa fa-bars"></i></a>
+            <ul id="menubar" class="item-menu m-p-0 nav hidden">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Skill</li>
+                </a>
+                <a href="#">
+                    <li>Portfolio</li>
+                </a>
+                <a href="#">
+                    <li>Experience</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home height-30">
+            <div class="intro-container flex height-100">
+                <div class="intro-container-pic">
+                    <img src="/images/intro-pic.jpg" alt="Mhmdmnsouri">
+                </div>
+                <div class="intro-conrainer-info flex">
+                    <h2 class="intro-conrainer-info-h2 m-p-0">Mohamad Shahmansouri</h2>
+                    <h3 class="intro-conrainer-info-p m-p-0">Frontend Developer</h3>
+                </div>
+                    <nav class="intro-container-social-nav nav">
+                        <a href="">
+                            <li><i class="fa fa-telegram"></i></li>
+                        </a>
+                        <a href="">
+                            <li><i class="fa fa-instagram"></i></li>
+                        </a>
+                        <a href="">
+                            <li><i class="fa fa-linkedin"></i></li>
+                        </a>
+                        <a href="">
+                            <li><i class="fa fa-github"></i></li>
+                        </a>
+                        <a href="">
+                            <li><i class="fa fa-google"></i></li>
+                        </a>
+                    </nav>
+                <div class="intro-container-btn">
+                    <a href="#" class="btn">Download CV</a>
+                    <a href="#" class="btn">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+        <section class="about"></section>
+        <section class="skill"></section>
+        <section class="portfolio"></section>
+        <section class="experience"></section>
+        <section class="contact"></section>
+    </main>
+    <footer></footer>
+</body>
+
+<script>
+    function menu() {
+        var x = document.getElementById("menubar");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+</script>
+
+</html>
