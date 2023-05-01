@@ -17,7 +17,7 @@
 }
 
 .btn {
-  padding: 10px 8px;
+  padding: 8px 14px;
   margin: 0 10px;
   border: 1px solid #000;
   border-radius: 4px;
@@ -87,10 +87,10 @@ header nav ul {
   border-radius: 50%;
 }
 .home .intro-container .intro-conrainer-info {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   flex-direction: column !important;
 }
 .home .intro-container .intro-container-social-nav {
   width: 14em;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */

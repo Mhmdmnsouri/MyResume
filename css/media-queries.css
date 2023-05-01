@@ -1,10 +1,41 @@
 @media (min-width: 576px) {
-    .header-nav a i{
+    .header-nav a i {
         display: none;
     }
-    .item-menu{
+
+    .item-menu {
         display: flex;
-        width: 20em !important;
+        width: 18em !important;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .intro-container-pic {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .intro-conrainer-info-h2 {
+        font-size: 2em !important;
+    }
+
+    .intro-conrainer-info-p {
+        font-size: 1.6em !important;
+    }
+    .intro-container-social-nav{
+        width: 16em!important;
+    }
+
+    .telegram,
+    .instagram,
+    .linkedin,
+    .github,
+    .google {
+        font-size: 2em !important;
+    }
+
+    .btn{
+        padding: 14px 26px;
     }
 }
 

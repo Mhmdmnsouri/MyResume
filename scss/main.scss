@@ -17,7 +17,7 @@
 }
 
 .btn {
-    padding: 10px 8px;
+    padding: 8px 14px;
     margin: 0 10px;
     border: 1px solid #000;
     border-radius: 4px;
@@ -76,6 +76,7 @@ header {
 }
 
 .home {
+
     .intro-container {
         flex-direction: column;
         border-bottom: 1px solid #000;
@@ -94,15 +95,13 @@ header {
         }
 
         .intro-conrainer-info {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             flex-direction: column !important;
-
         }
 
         .intro-container-social-nav {
             width: 14em;
-            margin-bottom: 35px;
+            margin-bottom: 40px;
         }
-
     }
 }
