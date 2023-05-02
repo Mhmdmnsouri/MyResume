@@ -105,3 +105,34 @@ header {
         }
     }
 }
+
+.about {
+    padding: 2em 2.5em;
+    flex-direction: column !important;
+    justify-content: space-around !important;
+    align-items: start !important;
+    .about-info p{
+        font-size: 20px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .bio-items {
+        width: 18em;
+        justify-content: space-between;
+        ul li{
+            margin: 4px 0;
+            font-size: 20px;
+        }
+
+        .value i {
+            font-size: 1em !important;
+            padding-right: 10px;
+        }
+    }
+}

@@ -93,4 +93,32 @@ header nav ul {
 .home .intro-container .intro-container-social-nav {
   width: 14em;
   margin-bottom: 40px;
+}
+
+.about {
+  padding: 2em 2.5em;
+  flex-direction: column !important;
+  justify-content: space-around !important;
+  align-items: start !important;
+}
+.about .about-info p {
+  font-size: 20px;
+}
+.about ul {
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: start;
+}
+.about .bio-items {
+  width: 18em;
+  justify-content: space-between;
+}
+.about .bio-items ul li {
+  margin: 4px 0;
+  font-size: 20px;
+}
+.about .bio-items .value i {
+  font-size: 1em !important;
+  padding-right: 10px;
 }/*# sourceMappingURL=main.css.map */

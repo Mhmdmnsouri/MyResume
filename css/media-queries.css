@@ -7,7 +7,7 @@
         display: flex;
         width: 18em !important;
         margin-top: 5px;
-        font-size: 20px;
+        font-size: 20px !important;
     }
 
     .intro-container-pic {
@@ -22,8 +22,9 @@
     .intro-conrainer-info-p {
         font-size: 1.6em !important;
     }
-    .intro-container-social-nav{
-        width: 16em!important;
+
+    .intro-container-social-nav {
+        width: 16em !important;
     }
 
     .telegram,
@@ -34,13 +35,58 @@
         font-size: 2em !important;
     }
 
-    .btn{
+    .btn {
         padding: 14px 26px;
+    }
+
+    .about {
+        padding: 4em 6em;
+    }
+
+    .bio-items {
+        width: 25em !important;
+    }
+
+    .bio-items ul li {
+        font-size: 1.5em !important;
+    }
+
+    .about-info p {
+        font-size: 22px !important;
     }
 }
 
-@media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 768px) {
+
+    .item-menu {
+        width: 18em !important;
+        font-size: 23px !important;
+        margin: 0 !important;
+    }
+
+    .about-info h2{
+        font-size: 35px!important;
+    }
+    .about-info p {
+        font-size: 28px !important;
+    }
+    .bio-items {
+        width: 30em !important;
+    }
+    .bio-items ul li {
+        font-size: 1.7em !important;
+    }
+    .container-about-bio h2{
+        font-size: 30px!important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header nav {
+        padding: 0 4em;
+    }
+}
 
 @media (min-width: 1200px) {}
