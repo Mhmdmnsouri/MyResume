@@ -65,7 +65,7 @@ header {
 }
 header nav {
   justify-content: space-between !important;
-  padding: 0 30px;
+  padding: 0 6vw;
 }
 header nav ul {
   display: none;
@@ -100,9 +100,15 @@ header nav ul {
   flex-direction: column !important;
   justify-content: space-around !important;
   align-items: start !important;
+  border-bottom: 1px solid #000;
+}
+.about h2 {
+  font-size: 5vw;
+  margin: 0 0 1em 0;
 }
 .about .about-info p {
-  font-size: 20px;
+  font-size: 5vw;
+  padding-right: 4vw;
 }
 .about ul {
   padding: 0;
@@ -111,12 +117,12 @@ header nav ul {
   align-items: start;
 }
 .about .bio-items {
-  width: 18em;
+  width: 72vw;
   justify-content: space-between;
 }
 .about .bio-items ul li {
   margin: 4px 0;
-  font-size: 20px;
+  font-size: 5vw;
 }
 .about .bio-items .value i {
   font-size: 1em !important;

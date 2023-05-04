@@ -44,15 +44,15 @@
     }
 
     .bio-items {
-        width: 25em !important;
+        width: 65vw !important;
     }
 
     .bio-items ul li {
-        font-size: 1.5em !important;
+        font-size: 3.8vw !important;
     }
 
     .about-info p {
-        font-size: 22px !important;
+        font-size: 3.8vw !important;
     }
 }
 
@@ -65,20 +65,25 @@
         margin: 0 !important;
     }
 
-    .about-info h2{
-        font-size: 35px!important;
-    }
-    .about-info p {
-        font-size: 28px !important;
-    }
+
     .bio-items {
-        width: 30em !important;
+        width: 60vw !important;
     }
+
+    .about-info h2 {
+        font-size: 3,8vw !important;
+    }
+
+    .about-info p {
+        font-size: 3vw !important;
+    }
+
     .bio-items ul li {
-        font-size: 1.7em !important;
+        font-size: 3vw !important;
     }
-    .container-about-bio h2{
-        font-size: 30px!important;
+
+    .container-about-bio h2 {
+        font-size: 3.8vw !important;
     }
 
 }
@@ -87,6 +92,56 @@
     header nav {
         padding: 0 4em;
     }
+
+
+    .about-info h2 {
+        font-size: 3vw !important;
+    }
+
+    .about-info p {
+        font-size: 2.5vw !important;
+    }
+
+    .bio-items ul li {
+        font-size: 2.5vw !important;
+    }
+    .bio-items {
+        width: 50vw !important;
+    }
+
+    .container-about-bio h2 {
+        font-size: 3vw !important;
+    }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    .about {
+        flex-direction: row !important;
+    }
+
+    .about{
+        padding: 2em 10em;
+    }
+
+    .about-info h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .about-info p {
+        font-size: 1.6vw !important;
+    }
+
+    .bio-items {
+        width: 28vw !important;
+    }
+
+    .bio-items ul li {
+        font-size: 1.6vw !important;
+    }
+
+    .container-about-bio h2 {
+        font-size: 2.5vw !important;
+    }
+
+}
