@@ -54,6 +54,15 @@
     .about-info p {
         font-size: 3.8vw !important;
     }
+
+    .skill {
+        padding: 4em 6em !important;
+        height: 30vw !important;
+    }
+
+    .skill ul li {
+        font-size: 3.5vw !important;
+    }
 }
 
 
@@ -71,7 +80,7 @@
     }
 
     .about-info h2 {
-        font-size: 3,8vw !important;
+        font-size: 3.8vw !important;
     }
 
     .about-info p {
@@ -84,6 +93,17 @@
 
     .container-about-bio h2 {
         font-size: 3.8vw !important;
+    }
+    .skill {
+        height: 25vw !important;
+    }
+
+    .skill h2 {
+        font-size: 3.8vw !important;
+    }
+
+    .skill ul li {
+        font-size: 3vw !important;
     }
 
 }
@@ -105,12 +125,24 @@
     .bio-items ul li {
         font-size: 2.5vw !important;
     }
+
     .bio-items {
         width: 50vw !important;
     }
 
     .container-about-bio h2 {
         font-size: 3vw !important;
+    }
+    .skill {
+        height: 20vw !important;
+    }
+
+    .skill h2 {
+        font-size: 3vw !important;
+    }
+
+    .skill ul li {
+        font-size: 2.5vw !important;
     }
 }
 
@@ -120,7 +152,7 @@
         flex-direction: row !important;
     }
 
-    .about{
+    .about {
         padding: 2em 10em;
     }
 
