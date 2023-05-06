@@ -55,13 +55,17 @@
         font-size: 3.8vw !important;
     }
 
-    .skill {
+    .skill-interest {
         padding: 4em 6em !important;
-        height: 30vw !important;
     }
 
     .skill ul li {
         font-size: 3.5vw !important;
+    }
+
+    .interest ul li {
+        font-size: 3.5vw !important;
+
     }
 }
 
@@ -94,6 +98,11 @@
     .container-about-bio h2 {
         font-size: 3.8vw !important;
     }
+
+    .skill-interest {
+        flex-direction: row !important;
+    }
+
     .skill {
         height: 25vw !important;
     }
@@ -104,6 +113,26 @@
 
     .skill ul li {
         font-size: 3vw !important;
+    }
+
+    .interest {
+        margin: 0 !important;
+        height: 25vw !important;
+        justify-content: flex-start !important;
+    }
+
+    .interest ul {
+        height: 100% !important;
+
+    }
+
+    .interest ul li {
+        font-size: 3vw !important;
+    }
+
+    .interest h2 {
+        font-size: 3.8vw !important;
+
     }
 
 }
@@ -133,6 +162,13 @@
     .container-about-bio h2 {
         font-size: 3vw !important;
     }
+
+    .skill-interest {
+        flex-direction: row !important;
+        width: 70vw !important;
+    }
+
+
     .skill {
         height: 20vw !important;
     }
@@ -144,6 +180,19 @@
     .skill ul li {
         font-size: 2.5vw !important;
     }
+
+    .interest {
+        height: 20vw !important;
+    }
+
+    .interest h2 {
+        font-size: 3vw !important;
+    }
+
+    .interest ul li {
+        font-size: 2.5vw !important;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -175,5 +224,35 @@
     .container-about-bio h2 {
         font-size: 2.5vw !important;
     }
+
+    .skill-interest {
+        padding: 2em 10em !important;
+        width: 65vw !important; 
+    }
+
+    .skill {
+        height: 15vw !important;
+    }
+
+    .skill h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .skill ul li {
+        font-size: 1.8vw !important;
+    }
+
+    .interest {
+        height: 15vw !important;
+    }
+
+    .interest h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .interest ul li {
+        font-size: 1.8vw !important;
+    }
+
 
 }
