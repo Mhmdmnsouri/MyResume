@@ -121,7 +121,6 @@ header {
 }
 
 .about {
-    padding: 2em 2.5em;
     flex-direction: column !important;
     justify-content: space-around !important;
     align-items: start !important;
@@ -158,10 +157,10 @@ header {
 }
 
 .skill-interest {
-    padding: 2em 2.5em;
     flex-direction: column !important;
     justify-content: space-between;
     align-items: flex-start !important;
+    border-bottom: 1px solid #000;
 
     .skill {
         flex-direction: column !important;
@@ -193,4 +192,43 @@ header {
             }
         }
     }
+}
+
+.experience-education {
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #000;
+
+    h4 {
+        margin: 0;
+    }
+
+    .experience {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 8vw;
+
+        h4{
+            font-size: 4vw;
+
+        }
+        span {
+            font-size: 3.5vw;
+
+        }
+    }
+
+    .education {
+        flex-direction: column;
+        align-items: flex-start;
+        h4{
+            font-size: 4vw;
+
+        }
+        span {
+            font-size: 3.5vw;
+
+        }
+    }
+
 }

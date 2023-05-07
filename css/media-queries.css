@@ -40,7 +40,7 @@
     }
 
     .about {
-        padding: 4em 6em;
+        padding: 4em 6em !important;
     }
 
     .bio-items {
@@ -52,7 +52,7 @@
     }
 
     .about-info p {
-        font-size: 3.8vw !important;
+        font-size: 3vw !important;
     }
 
     .skill-interest {
@@ -60,12 +60,20 @@
     }
 
     .skill ul li {
-        font-size: 3.5vw !important;
+        font-size: 3vw !important;
     }
 
     .interest ul li {
-        font-size: 3.5vw !important;
+        font-size: 3vw !important;
+    }
 
+    .experience-education {
+        padding: 4em 6em !important;
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 3vw !important;
     }
 }
 
@@ -96,7 +104,7 @@
     }
 
     .container-about-bio h2 {
-        font-size: 3.8vw !important;
+        font-size: 3vw !important;
     }
 
     .skill-interest {
@@ -108,11 +116,11 @@
     }
 
     .skill h2 {
-        font-size: 3.8vw !important;
+        font-size: 3vw !important;
     }
 
     .skill ul li {
-        font-size: 3vw !important;
+        font-size: 2.5vw !important;
     }
 
     .interest {
@@ -127,12 +135,21 @@
     }
 
     .interest ul li {
-        font-size: 3vw !important;
+        font-size: 2.5vw !important;
     }
 
     .interest h2 {
-        font-size: 3.8vw !important;
+        font-size: 3vw !important;
+    }
 
+    .experience-education h2 {
+        font-size: 3vw !important;
+
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 2.5vw !important;
     }
 
 }
@@ -165,7 +182,6 @@
 
     .skill-interest {
         flex-direction: row !important;
-        width: 70vw !important;
     }
 
 
@@ -174,11 +190,11 @@
     }
 
     .skill h2 {
-        font-size: 3vw !important;
+        font-size: 2.5vw !important;
     }
 
     .skill ul li {
-        font-size: 2.5vw !important;
+        font-size: 2vw !important;
     }
 
     .interest {
@@ -186,12 +202,32 @@
     }
 
     .interest h2 {
-        font-size: 3vw !important;
+        font-size: 2.5vw !important;
     }
 
     .interest ul li {
-        font-size: 2.5vw !important;
+        font-size: 2vw !important;
     }
+
+    .experience-education {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+    }
+
+    .experience-education h2 {
+        font-size: 2.5vw !important;
+
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 2vw !important;
+    }
+
+    .experience {
+        margin: 0 !important;
+    }
+
 
 }
 
@@ -202,7 +238,7 @@
     }
 
     .about {
-        padding: 2em 10em;
+        padding: 2em 10em !important;
     }
 
     .about-info h2 {
@@ -227,7 +263,6 @@
 
     .skill-interest {
         padding: 2em 10em !important;
-        width: 65vw !important; 
     }
 
     .skill {
@@ -247,11 +282,25 @@
     }
 
     .interest h2 {
-        font-size: 2.5vw !important;
+        font-size: 2vw !important;
     }
 
     .interest ul li {
-        font-size: 1.8vw !important;
+        font-size: 1.5vw !important;
+    }
+
+
+
+    .experience-education {
+        padding: 2em 10em !important;
+    }
+    .experience-education h2 {
+        font-size: 2vw !important;
+    }
+
+    .experience-education h4,
+    span {
+        font-size: 1.5vw !important;
     }
 
 

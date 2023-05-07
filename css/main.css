@@ -109,7 +109,6 @@ header nav ul {
 }
 
 .about {
-  padding: 2em 2.5em;
   flex-direction: column !important;
   justify-content: space-around !important;
   align-items: start !important;
@@ -139,10 +138,10 @@ header nav ul {
 }
 
 .skill-interest {
-  padding: 2em 2.5em;
   flex-direction: column !important;
   justify-content: space-between;
   align-items: flex-start !important;
+  border-bottom: 1px solid #000;
 }
 .skill-interest .skill {
   flex-direction: column !important;
@@ -169,4 +168,34 @@ header nav ul {
 }
 .skill-interest .interest ul li {
   font-size: 4.5vw;
+}
+
+.experience-education {
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #000;
+}
+.experience-education h4 {
+  margin: 0;
+}
+.experience-education .experience {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 8vw;
+}
+.experience-education .experience h4 {
+  font-size: 4vw;
+}
+.experience-education .experience span {
+  font-size: 3.5vw;
+}
+.experience-education .education {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.experience-education .education h4 {
+  font-size: 4vw;
+}
+.experience-education .education span {
+  font-size: 3.5vw;
 }/*# sourceMappingURL=main.css.map */
