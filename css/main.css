@@ -35,6 +35,17 @@ section {
   font-size: 5vw;
 }
 
+.pic {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1vw;
+}
+
+.portfolio-item {
+  flex-direction: column;
+  margin-bottom: 7vw;
+}
+
 .hidden {
   display: none;
 }
@@ -64,7 +75,7 @@ body {
   margin: 0;
   padding: 3em 0 0 0;
   box-sizing: border-box;
-  height: 100em;
+  height: 200em;
 }
 
 header {
@@ -197,5 +208,18 @@ header nav ul {
   font-size: 4vw;
 }
 .experience-education .education span {
+  font-size: 3.5vw;
+}
+
+.portfolio {
+  border-bottom: 1px solid #000;
+}
+.portfolio .portfolio-container {
+  flex-direction: column;
+}
+.portfolio h4 {
+  font-size: 4vw;
+}
+.portfolio p {
   font-size: 3.5vw;
 }/*# sourceMappingURL=main.css.map */
