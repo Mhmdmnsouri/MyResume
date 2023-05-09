@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-section {
+section, footer {
   padding: 2em 2.5em;
 }
 
@@ -222,4 +222,40 @@ header nav ul {
 }
 .portfolio p {
   font-size: 3.5vw;
+}
+
+.contact {
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #000;
+}
+.contact form {
+  flex-direction: column;
+  margin-bottom: 10vw;
+  width: 100%;
+}
+.contact form input,
+.contact form textarea {
+  width: 90%;
+  height: 40px;
+  padding: 15px 15px;
+  border: 0;
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 1pt;
+  border-bottom: 1px solid #000;
+}
+.contact form button {
+  width: 100%;
+  height: 40px;
+  padding: 15px 15px;
+}
+.contact .contact-info {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-container {
+  flex-direction: column;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
