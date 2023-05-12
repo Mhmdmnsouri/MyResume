@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "playball";
+  src: url(../fonts/Playball-Regular.ttf) format("truetype");
+}
 .m-p-0 {
   margin: 0;
   padding: 0;
 }
 
-section, footer {
+section,
+footer {
   padding: 2em 2.5em;
 }
 
@@ -72,6 +77,8 @@ i {
 }
 
 body {
+  font-family: "playball";
+  letter-spacing: 2px;
   margin: 0;
   padding: 3em 0 0 0;
   box-sizing: border-box;
@@ -117,6 +124,25 @@ header nav ul {
 .home .intro-container .intro-container-social-nav {
   width: 14em;
   margin-bottom: 40px;
+}
+.home .intro-container .intro-container-social-nav a li i:hover {
+  transform: scale(1.2);
+  transition: all ease 0.3s;
+}
+.home .intro-container .intro-container-social-nav .tel:hover {
+  color: #21A5FF;
+}
+.home .intro-container .intro-container-social-nav .insta:hover {
+  color: #e4026f;
+}
+.home .intro-container .intro-container-social-nav .linkedin:hover {
+  color: #0A66C2;
+}
+.home .intro-container .intro-container-social-nav .git:hover {
+  color: #9c6feb;
+}
+.home .intro-container .intro-container-social-nav .mail:hover {
+  color: #ec4d9a;
 }
 
 .about {
@@ -244,11 +270,17 @@ header nav ul {
   font-weight: 700;
   letter-spacing: 1pt;
   border-bottom: 1px solid #000;
+  resize: none;
 }
 .contact form button {
   width: 100%;
   height: 40px;
   padding: 15px 15px;
+}
+.contact .contact-form-container {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
 }
 .contact .contact-info {
   flex-direction: column;

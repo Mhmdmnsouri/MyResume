@@ -87,6 +87,10 @@
     .portfolio p {
         font-size: 3vw !important;
     }
+
+    .contact {
+        padding: 4em 6em;
+    }
 }
 
 
@@ -177,6 +181,26 @@
     .portfolio p {
         font-size: 2vw !important;
     }
+
+    .contact h2 {
+        font-size: 3vw !important;
+    }
+
+    .contact {
+        flex-flow: row-reverse;
+    }
+
+    .contact h2 {
+        font-size: 2.5vw !important;
+    }
+
+    .contact form {
+        margin-bottom: 0 !important;
+    }
+
+    .contact-info {
+        margin-right: 12vw !important;
+    }
 }
 
 
@@ -263,7 +287,8 @@
         margin-left: 2vw;
         margin-right: 2vw;
     }
-    .portfolio div{
+
+    .portfolio div {
         margin-bottom: 0 !important;
     }
 
@@ -279,6 +304,10 @@
 
     .portfolio p {
         font-size: 1.5vw !important;
+    }
+
+    .contact-info {
+        margin-right: 18vw !important;
     }
 
 }
@@ -370,6 +399,14 @@
 
     .portfolio p {
         font-size: 1vw !important;
+    }
+
+    .contact h2 {
+        font-size: 2vw !important;
+    }
+
+    .contact {
+        padding: 2em 10em !important;
     }
 
 }
