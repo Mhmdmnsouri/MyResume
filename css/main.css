@@ -2,9 +2,39 @@
   font-family: "playball";
   src: url(../fonts/Playball-Regular.ttf) format("truetype");
 }
+h1,
+h2,
+header li {
+  color: #F9F5E7;
+}
+
+h3,
+h4 {
+  color: #F8EAD8;
+}
+
+i,
+button,
+input {
+  color: #E8D5C4;
+}
+
+p,
+span,
+a,
+li {
+  color: #F9F5E7;
+}
+
 .m-p-0 {
   margin: 0;
   padding: 0;
+}
+
+header,
+body,
+footer {
+  background-color: #000000;
 }
 
 section,
@@ -30,9 +60,18 @@ footer {
 .btn {
   padding: 8px 14px;
   margin: 0 10px;
-  border: 1px solid #000;
-  border-radius: 4px;
+  border: 2px solid #E8D5C4;
+  color: #E8D5C4;
+  border-radius: 20px;
   cursor: pointer;
+  outline: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: #E8D5C4;
+  border: none;
 }
 
 .title {
@@ -68,7 +107,7 @@ footer {
 }
 
 a {
-  color: #000;
+  color: #17ecff;
   text-decoration: none;
 }
 
@@ -82,15 +121,14 @@ body {
   margin: 0;
   padding: 3em 0 0 0;
   box-sizing: border-box;
-  height: 200em;
+  height: 100%;
 }
 
 header {
-  background-color: #fff;
   height: 3em;
   position: fixed;
   top: 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #F9F5E7;
 }
 header nav {
   justify-content: space-between !important;
@@ -100,9 +138,6 @@ header nav ul {
   display: none;
 }
 
-.home {
-  border-bottom: 1px solid #000;
-}
 .home .intro-container {
   flex-direction: column;
 }
@@ -125,9 +160,11 @@ header nav ul {
   width: 14em;
   margin-bottom: 40px;
 }
-.home .intro-container .intro-container-social-nav a li i:hover {
-  transform: scale(1.2);
+.home .intro-container .intro-container-social-nav a li i {
   transition: all ease 0.3s;
+}
+.home .intro-container .intro-container-social-nav a li i:hover {
+  transform: scale(1.3);
 }
 .home .intro-container .intro-container-social-nav .tel:hover {
   color: #21A5FF;
@@ -149,7 +186,6 @@ header nav ul {
   flex-direction: column !important;
   justify-content: space-around !important;
   align-items: start !important;
-  border-bottom: 1px solid #000;
 }
 .about .about-info p {
   font-size: 5vw;
@@ -178,7 +214,6 @@ header nav ul {
   flex-direction: column !important;
   justify-content: space-between;
   align-items: flex-start !important;
-  border-bottom: 1px solid #000;
 }
 .skill-interest .skill {
   flex-direction: column !important;
@@ -210,7 +245,6 @@ header nav ul {
 .experience-education {
   flex-direction: column;
   align-items: flex-start;
-  border-bottom: 1px solid #000;
 }
 .experience-education h4 {
   margin: 0;
@@ -237,9 +271,6 @@ header nav ul {
   font-size: 3.5vw;
 }
 
-.portfolio {
-  border-bottom: 1px solid #000;
-}
 .portfolio .portfolio-container {
   flex-direction: column;
 }
@@ -253,7 +284,6 @@ header nav ul {
 .contact {
   flex-direction: column;
   align-items: flex-start;
-  border-bottom: 1px solid #000;
 }
 .contact form {
   flex-direction: column;
@@ -269,8 +299,9 @@ header nav ul {
   font-size: 9pt;
   font-weight: 700;
   letter-spacing: 1pt;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #be2626;
   resize: none;
+  background-color: transparent;
 }
 .contact form button {
   width: 100%;
