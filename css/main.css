@@ -2,28 +2,40 @@
   font-family: "playball";
   src: url(../fonts/Playball-Regular.ttf) format("truetype");
 }
+header li,
+header h1,
+.about h2,
+.about li,
+.about p,
+.about i {
+  color: #000000 !important;
+}
+
+.cb- {
+  color: #000000;
+}
+
 h1,
-h2,
-header li {
-  color: #F9F5E7;
+h2 {
+  color: #FFFFFF;
 }
 
 h3,
 h4 {
-  color: #F8EAD8;
+  color: #FFFFFF;
 }
 
 i,
 button,
 input {
-  color: #E8D5C4;
+  color: #FFFFFF;
 }
 
 p,
 span,
 a,
 li {
-  color: #F9F5E7;
+  color: #FFFFFF;
 }
 
 .m-p-0 {
@@ -31,7 +43,15 @@ li {
   padding: 0;
 }
 
+header {
+  z-index: 100;
+}
+
 header,
+.about {
+  background-color: #FFFFFF;
+}
+
 body,
 footer {
   background-color: #000000;
@@ -60,23 +80,47 @@ footer {
 .btn {
   padding: 8px 14px;
   margin: 0 10px;
-  border: 2px solid #E8D5C4;
-  color: #E8D5C4;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
   border-radius: 20px;
   cursor: pointer;
   outline: none;
-  transition: all ease-in-out 0.3s;
+  transition: all ease 0.3s;
 }
 
 .btn:hover {
   color: #000000;
-  background-color: #E8D5C4;
+  background-color: #FFFFFF;
   border: none;
 }
 
 .title {
+  display: inline-block;
   margin: 0 0 1em 0 !important;
   font-size: 5vw;
+  position: relative;
+}
+
+.title:before {
+  content: "";
+  position: absolute;
+  height: 0.1vw;
+  width: 50%;
+  background-color: #FFFFFF;
+  top: -5px;
+  left: 0;
+  border: 1px solid #FFFFFF;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  height: 0.1vw;
+  width: 50%;
+  background-color: #FFFFFF;
+  bottom: -5px;
+  right: 0;
+  border: 1px solid #FFFFFF;
 }
 
 .pic {
@@ -137,6 +181,13 @@ header nav {
 header nav ul {
   display: none;
 }
+header nav ul li {
+  transition: all ease 0.3s;
+}
+header nav ul li:hover {
+  transform: translateY(-3px);
+  color: #be2626 !important;
+}
 
 .home .intro-container {
   flex-direction: column;
@@ -165,6 +216,7 @@ header nav ul {
 }
 .home .intro-container .intro-container-social-nav a li i:hover {
   transform: scale(1.3);
+  transform: translateY(-2px);
 }
 .home .intro-container .intro-container-social-nav .tel:hover {
   color: #21A5FF;
@@ -190,6 +242,8 @@ header nav ul {
 .about .about-info p {
   font-size: 5vw;
   padding-right: 4vw;
+  margin: 0 !important;
+  margin-top: 7px !important;
 }
 .about ul {
   padding: 0;
