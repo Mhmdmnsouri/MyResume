@@ -91,6 +91,9 @@
     .contact {
         padding: 4em 6em;
     }
+    textarea {
+        margin-bottom: 6vw !important;
+    }
 }
 
 
@@ -197,9 +200,15 @@
     .contact form {
         margin-bottom: 0 !important;
     }
+    textarea {
+        margin-bottom: 4vw !important;
+    }
 
     .contact-info {
         margin-right: 12vw !important;
+    }
+    .intro-container-social-nav{
+        width: 30vw !important;
     }
 }
 
@@ -309,6 +318,9 @@
     .contact-info {
         margin-right: 18vw !important;
     }
+    .intro-container-social-nav{
+        width: 20vw !important;
+    }
 
 }
 
@@ -328,6 +340,7 @@
 
     .about-info p {
         font-size: 1.6vw !important;
+        margin-bottom: 0 !important;
     }
 
     .bio-items {
@@ -407,6 +420,12 @@
 
     .contact {
         padding: 2em 10em !important;
+    }
+    textarea {
+        margin-bottom: 2vw !important;
+    }
+    .intro-container-social-nav{
+        width: 15vw !important;
     }
 
 }
