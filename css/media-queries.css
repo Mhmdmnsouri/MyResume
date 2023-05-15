@@ -76,6 +76,10 @@
         font-size: 3vw !important;
     }
 
+    .education {
+        margin-bottom: 6vw !important;
+    }
+
     .portfolio {
         padding: 4em 6em;
     }
@@ -91,6 +95,7 @@
     .contact {
         padding: 4em 6em;
     }
+
     textarea {
         margin-bottom: 6vw !important;
     }
@@ -105,11 +110,6 @@
         width: 18em !important;
         font-size: 23px !important;
         margin: 0 !important;
-    }
-
-
-    .bio-items {
-        width: 60vw !important;
     }
 
     .about-info h2 {
@@ -148,6 +148,7 @@
         margin: 0 !important;
         height: 25vw !important;
         justify-content: flex-start !important;
+        margin-right: 9vw !important;
     }
 
     .interest ul {
@@ -161,6 +162,11 @@
 
     .interest h2 {
         font-size: 3vw !important;
+    }
+
+    .experience-education {
+        flex-direction: row !important;
+        justify-content: space-between !important;
     }
 
     .experience-education h2 {
@@ -200,6 +206,7 @@
     .contact form {
         margin-bottom: 0 !important;
     }
+
     textarea {
         margin-bottom: 4vw !important;
     }
@@ -207,7 +214,8 @@
     .contact-info {
         margin-right: 12vw !important;
     }
-    .intro-container-social-nav{
+
+    .intro-container-social-nav {
         width: 30vw !important;
     }
 }
@@ -259,6 +267,7 @@
 
     .interest {
         height: 20vw !important;
+        margin-right: 20vw !important;
     }
 
     .interest h2 {
@@ -267,11 +276,6 @@
 
     .interest ul li {
         font-size: 2vw !important;
-    }
-
-    .experience-education {
-        flex-direction: row !important;
-        justify-content: space-between !important;
     }
 
     .experience-education h2 {
@@ -286,6 +290,10 @@
 
     .experience {
         margin: 0 !important;
+    }
+
+    .education-container {
+        margin-right: 10vw !important;
     }
 
     .portfolio-container {
@@ -318,7 +326,8 @@
     .contact-info {
         margin-right: 18vw !important;
     }
-    .intro-container-social-nav{
+
+    .intro-container-social-nav {
         width: 20vw !important;
     }
 
@@ -373,6 +382,7 @@
 
     .interest {
         height: 15vw !important;
+        margin-right: 11vw !important;
     }
 
     .interest h2 {
@@ -394,6 +404,14 @@
     .experience-education h4,
     span {
         font-size: 1.5vw !important;
+    }
+
+    .education-container {
+        margin-right: 4vw !important;
+    }
+
+    .education {
+        margin-bottom: 4vw !important;
     }
 
     .portfolio {
@@ -421,10 +439,12 @@
     .contact {
         padding: 2em 10em !important;
     }
+
     textarea {
         margin-bottom: 2vw !important;
     }
-    .intro-container-social-nav{
+
+    .intro-container-social-nav {
         width: 15vw !important;
     }
 

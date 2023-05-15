@@ -2,41 +2,9 @@
   font-family: "playball";
   src: url(../fonts/Playball-Regular.ttf) format("truetype");
 }
-header li,
-header h1,
-.about h2,
-.about li,
-.about p,
-.about i,
-footer h2,
-footer i,
-footer p,
-.portfolio h2,
-.portfolio h4,
-.portfolio p {
-  color: #000000 !important;
-}
-
-h1,
-h2 {
-  color: #FFFFFF;
-}
-
-h3,
-h4 {
-  color: #FFFFFF;
-}
-
-i,
-button,
-input {
-  color: #FFFFFF;
-}
-
-p,
-span,
-a,
-li {
+header,
+body,
+footer {
   color: #FFFFFF;
 }
 
@@ -46,22 +14,17 @@ li {
 }
 
 header {
-  z-index: 100;
-}
-
-header,
-.about,
-footer,
-.portfolio {
-  background-color: #FFFFFF;
+  background-color: #000000;
+  z-index: 1000;
 }
 
 body {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 section,
 footer {
+  background-color: #000000;
   padding: 2em 2.5em;
 }
 
@@ -141,10 +104,6 @@ footer {
   display: none;
 }
 
-.height-30 {
-  height: 35em;
-}
-
 .height-100 {
   height: 100%;
 }
@@ -154,8 +113,8 @@ footer {
 }
 
 a {
-  color: #17ecff;
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 i {
@@ -181,9 +140,6 @@ header nav {
   justify-content: space-between !important;
   padding: 0 6vw;
 }
-header nav .header-bar i {
-  color: #000000;
-}
 header nav ul {
   display: none;
 }
@@ -202,9 +158,12 @@ header nav ul li {
 }
 header nav ul li:hover {
   color: #be2626 !important;
-  text-shadow: 0 0 10px #be2626;
 }
 
+.home {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(50% + 50px) calc(100% - 50px), 50% 100%, calc(50% - 50px) calc(100% - 50px), 0 calc(100% - 50px));
+  height: 32em;
+}
 .home .intro-container {
   flex-direction: column;
 }
@@ -259,6 +218,9 @@ a li i {
   flex-direction: column !important;
   justify-content: space-around !important;
   align-items: start !important;
+  clip-path: polygon(0 0, calc(50% - 4.14px - 50px) 0, 50% 54.14px, calc(50% + 4.14px + 50px) 0, 100% 0, 100% 100%, 0 100%);
+  margin-top: -40px;
+  margin-bottom: -5px;
 }
 .about .about-info p {
   font-size: 5vw;
@@ -292,6 +254,7 @@ a li i {
   flex-direction: column !important;
   justify-content: space-between;
   align-items: flex-start !important;
+  margin-bottom: -5px;
 }
 .skill-interest .skill {
   flex-direction: column !important;
@@ -323,6 +286,7 @@ a li i {
 .experience-education {
   flex-direction: column;
   align-items: flex-start;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), calc(50% + 50px) calc(100% - 50px), 50% 100%, calc(50% - 50px) calc(100% - 50px), 0 calc(100% - 50px));
 }
 .experience-education h4 {
   margin: 0;
@@ -341,6 +305,7 @@ a li i {
 .experience-education .education {
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 10vw;
 }
 .experience-education .education h4 {
   font-size: 4vw;
@@ -349,6 +314,10 @@ a li i {
   font-size: 3.5vw;
 }
 
+.portfolio {
+  clip-path: polygon(0 0, calc(50% - 4.14px - 50px) 0, 50% 54.14px, calc(50% + 4.14px + 50px) 0, 100% 0, 100% 100%, 0 100%);
+  margin-top: -40px;
+}
 .portfolio .portfolio-container {
   flex-direction: column;
 }
@@ -362,6 +331,7 @@ a li i {
 .contact {
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: -5px;
 }
 .contact form {
   flex-direction: column;
