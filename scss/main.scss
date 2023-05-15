@@ -390,13 +390,18 @@ a li i {
             height: 40px;
             padding: 10px 15px;
             border: 0;
-            font-size: 9pt;
+            font-size: 1vw;
+            font-family: 'playball';
             font-weight: 700;
             letter-spacing: 1pt;
             border-bottom: 1px solid #be2626;
             resize: none;
             background-color: transparent;
             color: #FFFFFF;
+            &:focus{
+                border-bottom: 2px solid #be2626 !important;
+                outline: none !important;
+            }
         }
 
         textarea {
